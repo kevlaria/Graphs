@@ -1,0 +1,9 @@
+graphName {
+fromNode -123 -> finish
+start s -> fromNode
+-123 f -> openNode2
+fromNode f-> thisNode
+thisNode -> fromNode
+thisNode -> -123
+-123 -> openNode
+}
